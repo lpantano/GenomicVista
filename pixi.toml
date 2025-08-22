@@ -1,0 +1,29 @@
+[workspace]
+authors = ["sklasfeld <sjk314@gmail.com>"]
+channels = ["conda-forge"]
+name = "rnaseq_testing"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+anndata = ">=0.11.4,<0.12"
+jupyter = ">=1.1.1,<2"
+python = ">=3.13.3,<3.14"
+r = ">=4.4,<4.5"
+pandas = ">=2.2.3,<3"
+numpy = "<=2.2"
+scipy = ">=1.15.2,<2"
+wget = ">=1.21.4,<2"
+bs4 = ">=4.13.4,<5"
+zarr = ">=2.18.7,<3"
+uv = ">=0.7.3,<0.8"
+tqdm = ">=4.67.1,<5"
+matplotlib = ">=3.10.3,<4"
+seaborn = ">=0.13.2,<0.14"
+numba = ">=0.61.2,<0.62"
+scanpy = ">=1.11.4,<2"
+
+[pypi-dependencies]
+zarr = "*"

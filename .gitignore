@@ -1,3 +1,8 @@
 *.tmp
 *.h5ad
 *.zarr
+# pixi environments
+.pixi
+*.egg-info
+bulk_tissue_expression/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.h5ad
+GTEx_Analysis_v10_RNASeQCv2.4.2_gene_tpm.zarr
